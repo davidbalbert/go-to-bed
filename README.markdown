@@ -18,6 +18,7 @@ Configuration
 -------------
 
 You can add or remove applications from `ForbiddenApps`. If your foreground application is not in `ForbiddenApps`, Go To Bed won't bother you when it runs.
+
 You can change `BedTime` and `WakeUpTime` to set the time range when you should go to bed. They are measured in seconds from 12:00am.
 
 Who Am I?
