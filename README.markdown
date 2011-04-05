@@ -8,10 +8,10 @@ Installation
 
 Clone the repo
     $ git clone git://github.com/davidbalbert/go-to-bed.git
-add the script to your crontab
+open your crontab
     $ crontab -e
-and paste this into your editor
-    */10 * * * * osascript /path/to/go_to_bed.scpt >& /dev/null
+paste this into your editor and save your crontab
+    */10 * * * * osascript /path/to/go_to_bed.applescript >& /dev/null
 the `>& /dev/null` keeps cron from emailing you the output.
 
 Configuration
