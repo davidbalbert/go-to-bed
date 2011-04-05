@@ -6,13 +6,13 @@ This is an AppleScript I wrote to force me to go bed at a reasonable hour. If it
 Installation
 ------------
 
-1.  Clone the repo
+Clone the repo
     $ git clone git://github.com/davidbalbert/go-to-bed.git
-2.  Add the script to your crontab
+Add the script to your crontab
     $ crontab -e
-    # and paste this into your editor
+and paste this into your editor
     */10 * * * * osascript /path/to/go_to_bed.scpt >& /dev/null
-    # the >& /dev/null keeps cron from emailing you the output
+    the >& /dev/null keeps cron from emailing you the output
 
 Configuration
 -------------
