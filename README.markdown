@@ -7,7 +7,7 @@ Installation
 ------------
 
 `# clone the repo
-$ git clone git://github.com/davidbalbert/go-to-bed.git`
+$ git clone git://github.com/davidbalbert/go-to-bed.git
 
 # add it to your crontab
 $ crontab -e
